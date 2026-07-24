@@ -15,21 +15,48 @@ In practice, we focus on helping developers take off with local-first AI assista
 
 cofy-x builds practical tools for autonomous coding, local-first sandbox execution, and cross-channel agent orchestration.
 
-## Featured Project
+## Featured Projects
+
+### [elyro](https://github.com/cofy-x/elyro)
+
+Edit on Mac. Build and test in Linux.
+
+- Gives developers and coding agents a predictable local Linux Workspace.
+- Source stays on the Mac; build, test, and debug run in a maintained Linux container.
+- Machine-readable CLI designed as a stable execution tool for coding agents.
+
+### [peek-llm](https://github.com/cofy-x/peek-llm)
+
+See how language models work, one HTML at a time.
+
+- Interactive visual explanations of LLM concepts: tokenization, embeddings, attention, and more.
+- One concept, one self-contained HTML file — no build step, works offline.
+- Live site: [cofy-x.github.io/peek-llm](https://cofy-x.github.io/peek-llm/)
+
+### [x-workbench](https://github.com/cofy-x/x-workbench)
+
+A monorepo of execution-focused tools for accelerating human-AI workflows.
+
+- Small, independent tools for content creation: video processing, logo generation, subtitles, format conversion.
+- Web UI + CLI for every tool; one-command Docker deployment.
 
 ### [deck](https://github.com/cofy-x/deck)
 
-Your local cockpit for autonomous AI agents:
+Your local cockpit for autonomous AI agents.
 
 - Run agents in isolated local sandboxes.
 - Combine chat, desktop control, and tool execution in one workflow.
-- Build on a polyglot platform (TypeScript, Go, Rust, Python).
 
-Start here: [cofy-x/deck](https://github.com/cofy-x/deck)
+### [pokefetch](https://github.com/cofy-x/pokefetch)
+
+A wild terminal appeared!
+
+- Displays a random, colored ASCII Pokémon every time you open a new terminal tab.
+- Zero dependencies, pure shell — works with Zsh, Bash, and iTerm2.
 
 ## Community
 
-- Issues: [github.com/cofy-x/deck/issues](https://github.com/cofy-x/deck/issues)
+- Issues: report in the relevant project repository, e.g. [cofy-x/elyro/issues](https://github.com/cofy-x/elyro/issues)
 - Discussions: [github.com/cofy-x/deck/discussions](https://github.com/cofy-x/deck/discussions)
 - Security: [github.com/cofy-x/.github/security/advisories/new](https://github.com/cofy-x/.github/security/advisories/new)
 
