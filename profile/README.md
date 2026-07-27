@@ -2,20 +2,21 @@
 
 # cofy-x
 
-## Name Meaning
+**Useful tools, playful experiments, and open-source ideas shaped through human-AI collaboration.**
 
-**cofy-x** stands for **Coordination Fly X**.  
-- **Coordination**: human-AI collaboration as the core workflow.
-- **Fly**: accelerate execution and delivery.
-- **X**: infinite possibilities unlocked by AI capabilities.
+cofy-x is an open-source workshop for building things that help, teach, explore, or simply delight. Projects range from developer tools and AI-native workflows to interactive visualizations and small creative experiments.
 
-In practice, we focus on helping developers take off with local-first AI assistance.
+## Coordination Fly X
 
-**Developer-first open source for AI-native workflows.**
+The name **cofy-x** stands for **Coordination Fly X**:
 
-cofy-x builds practical tools for autonomous coding, local-first sandbox execution, and cross-channel agent orchestration.
+- **Coordination**: people and AI working together as a practical creative process.
+- **Fly**: turning ideas into working projects with speed and momentum.
+- **X**: leaving room for useful tools, playful ideas, and possibilities we have not explored yet.
 
-## Featured Projects
+The projects do not need to fit one category. They share a bias toward making ideas tangible, open, and enjoyable to explore.
+
+## Developer Tools
 
 ### [elyro](https://github.com/cofy-x/elyro)
 
@@ -24,14 +25,6 @@ Edit on Mac. Build and test in Linux.
 - Gives developers and coding agents a predictable local Linux Workspace.
 - Source stays on the Mac; build, test, and debug run in a maintained Linux container.
 - Machine-readable CLI designed as a stable execution tool for coding agents.
-
-### [peek-llm](https://github.com/cofy-x/peek-llm)
-
-See how language models work, one HTML at a time.
-
-- Interactive visual explanations of LLM concepts: tokenization, embeddings, attention, and more.
-- One concept, one self-contained HTML file — no build step, works offline.
-- Live site: [cofy-x.github.io/peek-llm](https://cofy-x.github.io/peek-llm/)
 
 ### [x-workbench](https://github.com/cofy-x/x-workbench)
 
@@ -46,6 +39,24 @@ Your local cockpit for autonomous AI agents.
 
 - Run agents in isolated local sandboxes.
 - Combine chat, desktop control, and tool execution in one workflow.
+- Website: [deck.cofy-x.space](https://deck.cofy-x.space/)
+
+## Learning & Creative Experiments
+
+### [peek-llm](https://github.com/cofy-x/peek-llm)
+
+See how language models work, one HTML at a time.
+
+- Interactive visual explanations of LLM concepts: tokenization, embeddings, attention, and more.
+- One concept, one self-contained HTML file — no build step, works offline.
+- Live site: [cofy-x.github.io/peek-llm](https://cofy-x.github.io/peek-llm/)
+
+### [threejs-x-space](https://github.com/cofy-x/threejs-x-space)
+
+Playful Three.js experiments, strange machines, visual systems, and interactive ideas built for the browser.
+
+- A growing collection of focused, independently explorable 3D experiences.
+- Live site: [cofy-x.github.io/threejs-x-space](https://cofy-x.github.io/threejs-x-space/)
 
 ### [pokefetch](https://github.com/cofy-x/pokefetch)
 
@@ -56,9 +67,8 @@ A wild terminal appeared!
 
 ## Community
 
-- Issues: report in the relevant project repository, e.g. [cofy-x/elyro/issues](https://github.com/cofy-x/elyro/issues)
-- Discussions: [github.com/cofy-x/deck/discussions](https://github.com/cofy-x/deck/discussions)
-- Security: [github.com/cofy-x/.github/security/advisories/new](https://github.com/cofy-x/.github/security/advisories/new)
+- Issues: report bugs and request features in the relevant project repository.
+- Security: privately report vulnerabilities through the [central security advisory form](https://github.com/cofy-x/.github/security/advisories/new).
 
 ## Open Source Defaults
 
