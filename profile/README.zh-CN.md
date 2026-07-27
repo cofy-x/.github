@@ -26,6 +26,13 @@ cofy-x 是一个开源创作工坊，致力于把有帮助、能启发思考、�
 - 源码保留在 Mac 上，构建、测试、调试在维护好的 Linux 容器中运行。
 - 面向编码智能体设计的机器可读 CLI，是稳定的执行工具。
 
+### [kova](https://github.com/cofy-x/kova)
+
+由 BuildKit 驱动的 Kubernetes 原生、云厂商中立镜像构建服务。
+
+- 批量将 Dockerfile 上下文构建为 OCI 或 Nydus 镜像，并推送至 OCI Registry。
+- 支持通过 Dragonfly P2P 集群预热构建成功的镜像。
+
 ### [x-workbench](https://github.com/cofy-x/x-workbench)
 
 聚焦执行效率的人机协作工具集 Monorepo。

@@ -26,6 +26,13 @@ Edit on Mac. Build and test in Linux.
 - Source stays on the Mac; build, test, and debug run in a maintained Linux container.
 - Machine-readable CLI designed as a stable execution tool for coding agents.
 
+### [kova](https://github.com/cofy-x/kova)
+
+A Kubernetes-native, cloud-provider-neutral image build service powered by BuildKit.
+
+- Builds batches of Dockerfile contexts into OCI or Nydus images and pushes them to OCI registries.
+- Can preheat successful builds through a Dragonfly P2P cluster.
+
 ### [x-workbench](https://github.com/cofy-x/x-workbench)
 
 A monorepo of execution-focused tools for accelerating human-AI workflows.
