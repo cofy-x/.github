@@ -1,82 +1,26 @@
-[简体中文](README.zh-CN.md)
+<p align="right">
+  <a href="README.zh-CN.md">简体中文</a>
+</p>
 
-# cofy-x
+<p align="center">
+  <strong>Open-source infrastructure for dependable AI agents.</strong>
+</p>
 
-**Useful tools, playful experiments, and open-source ideas shaped through human-AI collaboration.**
+cofy-x builds open-source agentic infrastructure and practical tools for developers. Our current focus is the execution foundation behind dependable agent systems: isolated, stateful sandboxes, durable control and data planes, and reproducible cloud-neutral image workflows.
 
-cofy-x is an open-source workshop for building things that help, teach, explore, or simply delight. Projects range from developer tools and AI-native workflows to interactive visualizations and small creative experiments.
+The name **cofy-x** stands for **Coordination Fly X**: people and AI coordinating to turn ideas into working, open systems.
 
-## Coordination Fly X
+## What we focus on
 
-The name **cofy-x** stands for **Coordination Fly X**:
+- **Sandbox as the primitive:** consistent execution, lifecycle, storage, network, access, and evidence contracts for agents and code.
+- **Control-plane first:** durable identity, intent, placement, cleanup, and observability rather than client-side orchestration.
+- **Local-to-cluster continuity:** workflows that remain understandable and reproducible from local development to Kubernetes.
+- **Practical human-AI collaboration:** tools and experiments that make coordinated work easier to build, test, and explore.
 
-- **Coordination**: people and AI working together as a practical creative process.
-- **Fly**: turning ideas into working projects with speed and momentum.
-- **X**: leaving room for useful tools, playful ideas, and possibilities we have not explored yet.
+## Get involved
 
-The projects do not need to fit one category. They share a bias toward making ideas tangible, open, and enjoyable to explore.
+- Explore the pinned repositories below for the projects at the center of our current work.
+- Report bugs or propose features in the relevant repository.
+- Privately report vulnerabilities through the [central security advisory form](https://github.com/cofy-x/.github/security/advisories/new).
 
-## Developer Tools
-
-### [elyro](https://github.com/cofy-x/elyro)
-
-Edit on Mac. Build and test in Linux.
-
-- Gives developers and coding agents a predictable local Linux Workspace.
-- Source stays on the Mac; build, test, and debug run in a maintained Linux container.
-- Machine-readable CLI designed as a stable execution tool for coding agents.
-
-### [kova](https://github.com/cofy-x/kova)
-
-A Kubernetes-native, cloud-provider-neutral image build service powered by BuildKit.
-
-- Builds batches of Dockerfile contexts into OCI or Nydus images and pushes them to OCI registries.
-- Can preheat successful builds through a Dragonfly P2P cluster.
-
-### [x-workbench](https://github.com/cofy-x/x-workbench)
-
-A monorepo of execution-focused tools for accelerating human-AI workflows.
-
-- Small, independent tools for content creation: video processing, logo generation, subtitles, format conversion.
-- Web UI + CLI for every tool; one-command Docker deployment.
-
-### [deck](https://github.com/cofy-x/deck)
-
-Your local cockpit for autonomous AI agents.
-
-- Run agents in isolated local sandboxes.
-- Combine chat, desktop control, and tool execution in one workflow.
-- Website: [deck.cofy-x.space](https://deck.cofy-x.space/)
-
-## Learning & Creative Experiments
-
-### [peek-llm](https://github.com/cofy-x/peek-llm)
-
-See how language models work, one HTML at a time.
-
-- Interactive visual explanations of LLM concepts: tokenization, embeddings, attention, and more.
-- One concept, one self-contained HTML file — no build step, works offline.
-- Live site: [cofy-x.github.io/peek-llm](https://cofy-x.github.io/peek-llm/)
-
-### [threejs-x-space](https://github.com/cofy-x/threejs-x-space)
-
-Playful Three.js experiments, strange machines, visual systems, and interactive ideas built for the browser.
-
-- A growing collection of focused, independently explorable 3D experiences.
-- Live site: [cofy-x.github.io/threejs-x-space](https://cofy-x.github.io/threejs-x-space/)
-
-### [pokefetch](https://github.com/cofy-x/pokefetch)
-
-A wild terminal appeared!
-
-- Displays a random, colored ASCII Pokémon every time you open a new terminal tab.
-- Zero dependencies, pure shell — works with Zsh, Bash, and iTerm2.
-
-## Community
-
-- Issues: report bugs and request features in the relevant project repository.
-- Security: privately report vulnerabilities through the [central security advisory form](https://github.com/cofy-x/.github/security/advisories/new).
-
-## Open Source Defaults
-
-Organization-wide community templates and policies live in this repository and are automatically used by cofy-x repositories when local overrides are not provided.
+Contributions, thoughtful feedback, and curious exploration are welcome.
