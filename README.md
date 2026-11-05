@@ -21,6 +21,7 @@ GitHub applies these defaults only when a target repository has not overridden t
 2. Keep links and contact channels GitHub-first (Issues, Discussions, Security Advisories).
 3. Use clear, repo-agnostic language so templates are valid across all cofy-x projects.
 4. When a specific repository needs special rules, define local files in that repository to override these defaults.
+5. Keep the organization profile focused on identity and enduring directions. Use the organization's repository list for project discovery; keep project names, versions, status, and setup details in each project's own documentation.
 
 ## Organization Profile
 
